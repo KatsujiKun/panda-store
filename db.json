@@ -1,0 +1,46 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "username": "katsuji",
+      "nickname": "难搞哦",
+      "password": 123456,
+      "phone": 17669309098
+    },
+    {
+      "id": 2,
+      "username": "xueli",
+      "nickname": "雪花飘飘",
+      "password": 123456,
+      "phone": 13881403842
+    },
+    {
+      "id": 3,
+      "username": "shishi",
+      "nickname": "哦豁",
+      "password": 123456,
+      "phone": 13881403842
+    },
+    {
+      "username": "1234",
+      "nickname": "tpeh1jb3271",
+      "password": "123456",
+      "phone": 17669309098,
+      "id": 4
+    },
+    {
+      "username": "7777",
+      "nickname": "tpeh1jb3271",
+      "password": "123456",
+      "phone": 1380443842,
+      "id": 5
+    },
+    {
+      "username": "6666",
+      "nickname": "tpeh1jb3271",
+      "password": "123456",
+      "phone": 14235465451,
+      "id": 6
+    }
+  ]
+}

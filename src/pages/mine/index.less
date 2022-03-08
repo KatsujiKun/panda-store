@@ -1,0 +1,168 @@
+.container {
+    width: 1200px;
+    min-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+    >.left {
+        >ul {
+            padding: 0;
+
+            >li {
+                list-style: none;
+                cursor: pointer;
+                color: #43200c;
+                line-height: 30px;
+            }
+        }
+    }
+
+    >.center {
+        >.top {
+            width: 720px;
+            border: 1px solid #e4eaee;
+
+            >.user {
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                background: #f5f8fa;
+                padding: 10px 16px;
+
+                >.headImg {
+                    border-radius: 50px;
+                    overflow: hidden;
+
+                    img {
+                        width: 52px;
+                        height: 52px;
+                    }
+                }
+
+                .nick {
+                    margin-left: 20px;
+                }
+
+                .address {
+                    margin-left: 20px;
+                    font-size: 14px;
+                }
+            }
+
+            >.state {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 10px;
+
+                >p {
+                    width: 20%;
+                    font-size: 14px;
+                    text-align: center;
+                    border-right: 1px solid #e4eaee;
+                }
+
+                >p:nth-last-child(1) {
+                    border: 0 solid #000;
+                }
+            }
+        }
+
+        >.bottom {
+            width: 700px;
+            border: 1px solid #e4eaee;
+            margin: 20px 0;
+            padding: 0 10px;
+
+            .item {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 0 20px;
+                background: #fcfcfc;
+                border-bottom: 1px solid #e4eaee;
+
+                .productImg {
+                    width: 80px;
+                }
+
+                >.productTitle {
+                    margin-left: 20px;
+
+                    >p {
+                        width: 200px;
+                        overflow: hidden;
+                    }
+                }
+
+                >.productNum {
+                    >input {
+                        width: 30px;
+                        text-align: center;
+                        border-radius: 0;
+                        outline: none;
+                        border: 0 solid #000;
+                        background: #fff;
+                    }
+
+                    >button {
+                        outline: none;
+                        cursor: pointer;
+                        border: 1px solid #43200c;
+                        background: #fee44e;
+                        border-radius: 3px;
+                    }
+                }
+
+                >.productOpt {
+                    color: #43200c;
+
+                    >p {
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            .more {
+                text-align: center;
+                margin: 50px 0 20px;
+
+                >button {
+                    background: #fee44e;
+                    color: #43200c;
+                    border: 0 solid #000;
+                }
+            }
+        }
+    }
+
+    >.right {
+        width: 260px;
+        height: 180px;
+        text-align: center;
+        border: 1px solid #e4eaee;
+        color: #43200c;
+        
+        >p {
+            background-color: #f5f8fa;
+            border-bottom: 1px solid #e4eaee;
+            margin: 0;
+            line-height: 36px;
+        }
+
+        >.date {
+            box-sizing: border-box;
+
+            >h1 {
+                margin: 10px 0 0px;
+                font-size: 60px;
+            }
+
+            >p {
+                margin: 3px 0;
+            }
+        }
+    }
+}
